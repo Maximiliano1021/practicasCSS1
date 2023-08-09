@@ -1,0 +1,452 @@
+.perfilFoto {
+    width: 156px;
+    height: 156px;
+    margin-top: 60px;
+    margin-left: 641px;
+    border-radius: 16px
+}
+
+.name {
+    min-width: 186px;
+    min-height: 29px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5150;
+}
+
+.ubicacion {
+    min-width: 120px;
+    min-height: 17px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A9A9A9;
+}
+
+.info {
+    max-width: 100px;
+    max-height: 67px;
+    border-radius: 12px;
+    background-color: #E5E5E5;
+
+
+}
+
+.numero {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.descrip {
+    font-size: 14px;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.imagen1 {
+    max-width: 299px;
+    max-height: 299px;
+    border-radius: 12px;
+}
+
+.imagen2 {
+    max-width: 629px;
+    max-height: 299px;
+    border-radius: 12px;
+}
+
+.imagen3 {
+    max-width: 629px;
+    max-height: 299px;
+    border-radius: 12px;
+}
+
+.imagen4 {
+    max-width: 299px;
+    max-height: 299px;
+    border-radius: 12px;
+}
+
+.imagen5 {
+    max-width: 629px;
+    max-height: 299px;
+    border-radius: 12px;
+}
+
+.imagen6 {
+    max-width: 297px;
+    max-height: 622px;
+    border-radius: 12px;
+    margin-left: 29px;
+
+}
+
+footer {
+    
+    min-height: 100px;
+    color: #B9BDCF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end
+
+
+}
+
+
+/* ----------------------------------------------Tamano CelPhone-------------------------------------------- */
+@media only screen and (max-width: 395px) {
+
+    
+   
+    .perfilFoto {
+        max-width: 101.75862121582031px;
+        max-height: 101.75862121582031px;
+        margin-top: 30px;
+        border-radius: 16px
+    }
+
+    .name {
+        max-width: 121px;
+        max-height: 19px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 8px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .ubicacion {
+        max-width: 143px;
+        max-height: 11px;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 6px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #A9A9A9;
+    }
+
+    .info {
+        max-width: 78px;
+        max-height: 52px;
+        border-radius: 12px;
+        background-color: #E5E5E5;
+
+
+    }
+
+    .numero {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 8px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+    }
+
+    .descrip {
+        font-family: Montserrat;
+        font-size: 9px;
+        font-weight: 600;
+        line-height: 8px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+        color: #BDBDBD;
+    }
+
+    .imagen1 {
+        max-width: 109.32px;
+        max-height: 109.32px;
+        border-radius: 12px;
+    }
+
+    .imagen2 {
+        max-width: 229.98px;
+        max-height: 109.52px;
+        border-radius: 12px;
+        
+    }
+
+    .imagen3 {
+        max-width: 229.25px;
+        max-height: 109.32px;
+        border-radius: 12px;
+    }
+
+    .imagen4 {
+        max-width: 109.32px;
+        max-height: 109.32px;
+        border-radius: 12px;
+    }
+
+    .imagen5 {
+        max-width: 109.32px;
+        max-height: 109.32px;
+        border-radius: 12px;
+    }
+
+    .imagen6 {
+        max-height: 240px;
+        border-radius: 12px;
+        
+
+    }
+
+}
+
+.primera{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+
+    
+}
+
+segunda{
+   display: grid;
+}
+
+
+
+
+/* 
+img{
+    border-radius: 12px;
+}
+
+.perfilFoto {
+    width: 156px;
+    margin-top: 60px;
+    border-radius: 16px;
+}
+
+.name {
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4E5150;
+
+}
+
+.ubicacion {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A9A9A9;
+
+}
+
+.info {
+    background: #E5E5E5;
+    max-width: 100px;
+    max-height: 67px;
+    border-radius: 12px;
+
+}
+
+.numero {
+    margin-top: 18px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.descrip {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #BDBDBD;
+
+
+}
+
+
+footer {
+    
+    min-height: 100px;
+    color: #B9BDCF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end
+
+
+}
+
+
+
+
+.imagen1{
+    
+    min-width: 299px;
+    min-height: 299px;
+}
+
+.imagen2{
+    
+    min-height: 299px;
+    min-width: 630px;
+}
+
+.imagen3{
+    min-height: 299px;
+    min-width: 627px;
+}
+
+.imagen4{
+    min-width: 299px;
+    min-height: 299px;
+}
+
+.imagen5{
+    margin-left: 27px;
+    min-width: 299px;
+    min-height: 299px;
+}
+
+.imagen6{
+    margin-left: 27px;
+    min-width: 297px;
+    
+}
+
+
+@media only screen and (max-width: 390px) {
+    .perfilFoto {
+        width: 101px;
+        margin-top: px;
+        border-radius: 16px;
+    }
+   
+    .imagen1{
+    
+        min-width: 109px;
+        min-height: 109px;
+        margin-left: 0px;
+    }
+    
+    .imagen2{
+        
+        min-height: 109px;
+        min-width: 230px;
+        margin-left: 0px;
+    }
+    
+    .imagen3{
+        min-height: 109px;
+        min-width: 230px;s
+    }
+    
+    .imagen4{
+        min-width: 109px;
+        min-height: 109px;
+    }
+    
+    .imagen5{
+        
+        min-width: 109px;
+        min-height: 109px;
+    }
+    
+    .imagen6{
+        
+        min-width: 109px;
+        
+    }
+  }
+
+
+
+
+
+@media only screen and (max-height: 717px) {
+    
+  
+    .imagen1{
+    
+        min-width: 109px;
+        min-height: 109px;
+        margin-left: ;
+    }
+    
+    .imagen2{
+        
+        min-height: 109px;
+        min-width: 230px;
+    }
+    
+    .imagen3{
+        min-height: 109px;
+        min-width: 230px;
+    }
+    
+    .imagen4{
+        min-width: 109px;
+        min-height: 109px;
+    }
+    
+    .imagen5{
+        
+        min-width: 109px;
+        min-height: 109px;
+    }
+    
+    .imagen6{
+        
+        min-width: 109px;
+        
+    }
+  
+
+} */
